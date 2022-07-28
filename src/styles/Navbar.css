@@ -1,0 +1,19 @@
+nav {    
+    display: flex;
+    margin-left: auto;
+    padding: 1rem ;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

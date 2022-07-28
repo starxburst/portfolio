@@ -78,3 +78,9 @@
         height: auto;
     }
 }
+
+@media (max-width: 768px) {
+    .typewriter-wrapper-text {
+        display: none;
+    }
+}

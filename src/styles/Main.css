@@ -80,7 +80,18 @@
 }
 
 @media (max-width: 768px) {
-    .typewriter-wrapper-text {
-        display: none;
+    .glow {
+        animation-name:none
     }
+
+    .main-about {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .typewriter-wrapper-text {
+        font-size: 2rem;
+
+    }
+    
 }

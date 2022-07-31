@@ -1,23 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import '../styles/Main.css'
 import Navbar from "./Navbar";
-import video from '../assets/main-video.mp4'
 import Typewriter from 'typewriter-effect';
 
 const Main = () => {
+    const [opacity, setOpacity] = useState(1);
+    const [currentScrollHeight, setCurrentScrollHeight] = useState(0);
+
+    const changeOpacity = (e) => {
+
+        console.log(window.scrollY);
+        console.log(window.innerHeight);
+        setOpacity(1-(window.scrollY / window.innerHeight)*2);
+       
+    }
+
+    useEffect(() => {
+        setCurrentScrollHeight(window.scrollY);
+        console.log(currentScrollHeight);
+        window.addEventListener('scroll', (e) => changeOpacity(e));
+    },[])
+
+
+
     return (
-        <div className="main-container">
-            <video autoPlay loop muted playsInline className="background-video" >
-                <source src={video} type="video/mp4" />
-            </video>
+        <div className="main-container" style={{opacity}}>
             <Navbar />
             <div className="typewriter-container">
-
                 <h1 className="typewriter-wrapper-text"> Hello, I'm
                     <div className="typewriter-wrapper">>
                         <Typewriter 
                             options={{
-                                strings: ['A Self-Taught Web Developer', 'From Hong Kong'],
+                                strings: ['Web Developer', 'PC Gamer', 'From Hong Kong'],
                                 autoStart: true,
                                 loop: true,
                                 wrapperClassName: 'typewriter-wrapper',
@@ -26,7 +40,7 @@ const Main = () => {
                         />
                     </div>
                 </h1>
-                <h1 className="main-about glow">I'm passionate about designing web and interfaces</h1>
+                <h1 className="main-about glow">Passionate about designing web and interfaces</h1>
             </div>
         </div>
     )

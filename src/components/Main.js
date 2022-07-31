@@ -11,7 +11,7 @@ const Main = () => {
 
         /*console.log(window.scrollY);
         console.log(window.innerHeight);*/
-        setOpacity(1-(window.scrollY / window.innerHeight)*2);
+        setOpacity(1-(window.scrollY / window.innerHeight)*3);
        
     }
 

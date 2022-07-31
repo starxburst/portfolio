@@ -9,8 +9,8 @@ const Main = () => {
 
     const changeOpacity = (e) => {
 
-        console.log(window.scrollY);
-        console.log(window.innerHeight);
+        /*console.log(window.scrollY);
+        console.log(window.innerHeight);*/
         setOpacity(1-(window.scrollY / window.innerHeight)*2);
        
     }

@@ -27,6 +27,7 @@ const About = () => {
         <div id="aboutContainer" className="about-container">
             <div className="about-header">
                 <h1> About Me </h1>
+                
             </div>
             <div className="about-content-container">
                 <div className="window-container">       

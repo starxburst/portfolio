@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
 .about-container {
     font-family: 'Waiting for the Sunrise';
     position: relative;
@@ -10,6 +12,7 @@
 .about-header {
     display: flex;
     flex-direction: row;
+    font-size: 3rem;
 }
 
 .window-container {
@@ -22,16 +25,18 @@
 }
 
 .about-typewriter-container {
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 90%;
 }
 
 .about-typewriter-wrapper {
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {

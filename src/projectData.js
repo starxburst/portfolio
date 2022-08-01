@@ -10,7 +10,7 @@ import ticTacToeImg from './assets/ticTacToe.jpg';
 
 const data = [
     {
-        projectName: 'Clone Facebook',
+        projectName: '✨Clone Facebook✨',
         projectDescription: 'Node.js, Express, MongoDB, React.js, JWT',
         projectImage: fakebookImg,
         date: 'July 2022',

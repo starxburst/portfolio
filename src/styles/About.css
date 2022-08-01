@@ -38,6 +38,12 @@
     overflow-y: scroll;
 }
 
+.about-typewriter-container::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
 .about-typewriter-wrapper {
     height: 50%;
     font-weight: bold;

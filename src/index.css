@@ -14,6 +14,7 @@ body {
 html {
   height: 100vh;
   overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 code {

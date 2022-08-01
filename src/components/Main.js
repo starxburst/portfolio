@@ -25,13 +25,13 @@ const Main = () => {
 
     return (
         <div className="main-container" style={{opacity}}>
-            <Navbar />
+            
             <div className="typewriter-container">
                 <h1 className="typewriter-wrapper-text"> Hello, I'm
                     <div className="typewriter-wrapper">>
                         <Typewriter 
                             options={{
-                                strings: ['Web Developer', 'PC Gamer', 'From Hong Kong'],
+                                strings: ['Eric Lam','Web Developer', 'PC Gamer', 'From Hong Kong'],
                                 autoStart: true,
                                 loop: true,
                                 wrapperClassName: 'typewriter-wrapper',

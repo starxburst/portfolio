@@ -15,7 +15,13 @@
 
 @media (max-width: 768px) {
     .skill-header {
-    margin-right: 2rem;
-    margin-left: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .skill-container {
+        font-weight: 500;
+        font-size: 6.7vw;
+        background-image: linear-gradient(rgba(134, 128, 57, 0.3), rgba(134, 128, 57, 0.3));
     }
 }

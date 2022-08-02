@@ -25,7 +25,7 @@ const About = () => {
     },[]);
 
     return (
-        <div id="aboutContainer" className="about-container">
+        <div id="aboutContainer" className="about-container gradient">
             <div className="about-content-container">
                 <h1 className="about-header"> Hi. I'm Eric. Welcome to my portfolio </h1>
                 {elementVisible? (

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&display=swap');
+
+.skill-container {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-weight: 400;
+    font-size: 4.7vw;
+    backdrop-filter: blur(10px);
+    background-image: linear-gradient(rgba(134, 128, 57, 0.3), rgba(134, 128, 57, 0.3));
+}
+
+.skill-header {
+    margin-right: 5rem;
+    margin-left: 5rem;
+}

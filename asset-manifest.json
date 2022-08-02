@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d39b853b.css",
-    "main.js": "/portfolio/static/js/main.c1c4c636.js",
+    "main.css": "/portfolio/static/css/main.b5f9d459.css",
+    "main.js": "/portfolio/static/js/main.3988a3e0.js",
     "static/js/787.b7af92ad.chunk.js": "/portfolio/static/js/787.b7af92ad.chunk.js",
     "static/media/main-video.mp4": "/portfolio/static/media/main-video.9ebff449b23af8c4d0a5.mp4",
-    "static/media/window.png": "/portfolio/static/media/window.0331a1274251ff7c332d.png",
     "static/media/waldo.jpg": "/portfolio/static/media/waldo.08f69a6df1cd12697184.jpg",
     "static/media/memoryCardGame.jpg": "/portfolio/static/media/memoryCardGame.d496c3f9e30a36e77c3c.jpg",
     "static/media/fakebook.jpg": "/portfolio/static/media/fakebook.99a499626a6cc9537183.jpg",
@@ -14,12 +13,12 @@
     "static/media/ticTacToe.jpg": "/portfolio/static/media/ticTacToe.a7bd767f53d43a6baf64.jpg",
     "static/media/sketch.jpg": "/portfolio/static/media/sketch.f011c03c37da7c42f2d6.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d39b853b.css.map": "/portfolio/static/css/main.d39b853b.css.map",
-    "main.c1c4c636.js.map": "/portfolio/static/js/main.c1c4c636.js.map",
+    "main.b5f9d459.css.map": "/portfolio/static/css/main.b5f9d459.css.map",
+    "main.3988a3e0.js.map": "/portfolio/static/js/main.3988a3e0.js.map",
     "787.b7af92ad.chunk.js.map": "/portfolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d39b853b.css",
-    "static/js/main.c1c4c636.js"
+    "static/css/main.b5f9d459.css",
+    "static/js/main.3988a3e0.js"
   ]
 }

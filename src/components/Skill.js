@@ -17,7 +17,7 @@ const Skill = () => {
                 <div className="skill-header"> Node.js </div>
                 <div className="skill-header"> Express.js </div>
                 <div className="skill-header"> MongoDB </div>
-                <div className="skill-header"> MySQL </div>
+                <div className="skill-header"> NoSQL </div>
                 <div className="skill-header"> Material-UI </div>
                 <div className="skill-header"> GitHub </div>
                 <div className="skill-header"> Heroku </div>             
